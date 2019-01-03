@@ -1,0 +1,580 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-LightWeb.eot");
+  src: url("font/TSTAR-LightWeb.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-LightItalicWeb.eot");
+  src: url("font/TSTAR-LightItalicWeb.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-RegularWeb.eot");
+  src: url("font/TSTAR-RegularWeb.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-RegularItalicWeb.eot");
+  src: url("font/TSTAR-RegularItalicWeb.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-MediumWeb.eot");
+  src: url("font/TSTAR-MediumWeb.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-MediumItalicWeb.eot");
+  src: url("font/TSTAR-MediumItalicWeb.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-BoldWeb.eot");
+  src: url("font/TSTAR-BoldWeb.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-BoldItalicWeb.eot");
+  src: url("font/TSTAR-BoldItalicWeb.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-HeavyWeb.eot");
+  src: url("font/TSTAR-HeavyWeb.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* line 10, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+body {
+  background: white;
+  overflow-x: hidden;
+}
+
+/* line 14, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+body h1, body h2 {
+  font-family: "Playfair Display", serif;
+}
+
+/* line 18, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+body p {
+  font-family: "TSTAR", serif;
+}
+
+/* line 25, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .headerImage {
+  background-image: url(../img/headerImage.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+/* line 32, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo svg.header-logo {
+  height: 40px;
+  margin: 40px 50px;
+}
+
+/* line 37, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #efefef;
+}
+
+/* line 44, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event h1 {
+  margin-bottom: 60px;
+}
+
+/* line 48, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event p {
+  text-align: center;
+  width: 80%;
+}
+
+/* line 53, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .dateAndTime {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* line 56, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .dateAndTime strong {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 62, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .rsvpBtn {
+  font-family: 'TSTAR', sans-serif;
+  color: #353535;
+  border: 1px solid #ffce00;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding: 13px 1px 13px 13px;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 12px;
+  transition: 0.1s ease;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+
+/* line 78, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .rsvpBtn span {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 83, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .rsvpBtn i {
+  color: #353535;
+  font-size: 18px;
+  padding-left: 60px;
+  padding-right: 10px;
+  vertical-align: bottom;
+  transition: all .2s;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 94, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .rsvpBtn::before {
+  content: '';
+  position: absolute;
+  background: #ffce00;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.5s ease transform;
+  transform: translateX(-100%);
+}
+
+/* line 107, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .rsvpBtn:hover {
+  cursor: pointer;
+  color: #353535;
+}
+
+/* line 112, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .rsvpBtn:hover::before {
+  transform: translateX(0);
+}
+
+/* line 116, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.eventInfo .event .rsvpBtn:hover > i {
+  color: #353535;
+  transition: all .2s;
+}
+
+/* line 128, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.videoContainer {
+  padding: 50px 0;
+}
+
+/* line 130, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.videoContainer .row {
+  padding: 20px 3vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* line 135, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.videoContainer .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 141, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.videoContainer .content p {
+  width: 80%;
+}
+
+/* line 147, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.videoContainer .video .responsiveVideo {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+/* line 151, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.videoContainer .video .responsiveVideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* line 163, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP {
+  background-color: #353535;
+  padding: 120px 0 100px 0px;
+  margin-top: -120px;
+}
+
+/* line 168, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 172, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .interested {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 178, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .interested h2 {
+  color: white;
+  text-align: center;
+}
+
+/* line 184, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP #theForm {
+  color: white;
+  display: block;
+  position: relative;
+  font-family: "TSTAR", serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 194, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form label {
+  color: white;
+  display: block;
+  position: relative;
+  font-family: "TSTAR", serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+/* line 205, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form .guestNum input {
+  width: 60px;
+}
+
+/* line 209, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form span#guestsError {
+  color: red;
+  display: block;
+}
+
+/* line 214, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form .submitForm {
+  font-family: 'TSTAR', sans-serif;
+  color: white;
+  border: 1px solid #ffce00;
+  overflow: hidden;
+  display: block;
+  max-width: 140px;
+  position: relative;
+  padding: 10px 1px 10px 13px;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 12px;
+  transition: 0.1s ease;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+
+/* line 230, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form .submitForm span {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 235, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form .submitForm i {
+  color: white;
+  font-size: 18px;
+  padding-left: 60px;
+  padding-right: 10px;
+  vertical-align: bottom;
+  transition: all .2s;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 246, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form .submitForm::before {
+  content: '';
+  position: absolute;
+  background: #ffce00;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.5s ease transform;
+  transform: translateX(-100%);
+}
+
+/* line 259, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form .submitForm:hover {
+  cursor: pointer;
+  color: #353535;
+}
+
+/* line 264, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form .submitForm:hover::before {
+  transform: translateX(0);
+}
+
+/* line 268, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+.formRSVP .form .submitForm:hover > i {
+  color: #353535;
+  transition: all .2s;
+}
+
+@media screen and (min-width: 1100px) {
+  /* line 278, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo {
+    height: 900px;
+  }
+  /* line 280, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .headerImage {
+    min-height: 900px;
+  }
+  /* line 283, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event {
+    height: 900px;
+  }
+  /* line 287, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event .dateAndTime strong {
+    padding: 0 20px;
+    font-size: 18px;
+  }
+  /* line 296, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .form span.firstName {
+    display: inline-block;
+    width: 50%;
+  }
+  /* line 300, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .form span.firstName input {
+    width: 90%;
+  }
+  /* line 305, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .form span.lastName {
+    display: inline-block;
+    width: 48%;
+  }
+  /* line 309, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .form span.lastName input {
+    width: 90%;
+  }
+  /* line 314, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .form span.email {
+    margin-top: 15px;
+    display: block;
+  }
+  /* line 319, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .form span.email input {
+    width: 70%;
+  }
+  /* line 323, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .form span.guestNum {
+    margin-top: 15px;
+    display: block;
+  }
+  /* line 328, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .form a.submitForm {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+  /* line 336, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo {
+    min-height: 700px;
+  }
+  /* line 338, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .headerImage {
+    min-height: 700px;
+  }
+  /* line 341, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event {
+    height: 700px;
+    background-color: #efefef;
+  }
+  /* line 345, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event .dateAndTime {
+    width: 87% !important;
+  }
+  /* line 347, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event .dateAndTime strong {
+    font-size: 16px;
+  }
+  /* line 349, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event .dateAndTime strong:nth-child(1) {
+    padding-right: 10px;
+  }
+  /* line 353, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event .dateAndTime strong:nth-child(2) {
+    padding-left: 10px;
+  }
+  /* line 363, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .videoContainer .content p {
+    width: 100% !important;
+  }
+  /* line 366, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .videoContainer .content:nth-child(1) {
+    text-align: right;
+  }
+  /* line 370, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .videoContainer .content:nth-child(2) {
+    text-align: left;
+  }
+  /* line 377, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP {
+    margin-top: -100px  !important;
+  }
+  /* line 381, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form span.firstName {
+    display: inline-block;
+    width: 50%;
+  }
+  /* line 385, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form span.firstName input {
+    width: 90%;
+  }
+  /* line 390, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form span.lastName {
+    display: inline-block;
+    width: 48%;
+  }
+  /* line 393, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form span.lastName input {
+    width: 90%;
+  }
+  /* line 398, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form span.email {
+    margin-top: 15px;
+    display: block;
+  }
+  /* line 403, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form span.email input {
+    width: 70%;
+  }
+  /* line 407, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form span.guestNum {
+    margin-top: 15px;
+    display: block;
+  }
+  /* line 412, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form a.submitForm {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 422, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .headerImage {
+    height: 400px;
+  }
+  /* line 424, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .headerImage div#hLogo {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 429, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event {
+    padding: 50px 0;
+    height: auto;
+    background-color: #efefef;
+  }
+  /* line 434, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event .dateAndTime strong {
+    font-size: 16px;
+  }
+  /* line 436, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event .dateAndTime strong:nth-child(1) {
+    padding-right: 10px;
+  }
+  /* line 440, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .eventInfo .event .dateAndTime strong:nth-child(2) {
+    padding-left: 10px;
+  }
+  /* line 449, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .videoContainer {
+    padding-top: 30px;
+  }
+  /* line 452, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .videoContainer .row:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  /* line 456, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .videoContainer .row p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /* line 464, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .interested {
+    margin-bottom: 40px;
+  }
+  /* line 468, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form {
+    text-align: center;
+  }
+  /* line 471, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form label {
+    margin-top: 20px;
+  }
+  /* line 475, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form input {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  /* line 481, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form .guestNum input {
+    margin-bottom: 30px;
+  }
+  /* line 485, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/css/scss/_partials/_main.scss */
+  .formRSVP .form .submitForm {
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=../style.map */

@@ -1,0 +1,125 @@
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-LightWeb.eot");
+  src: url("font/TSTAR-LightWeb.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-LightItalicWeb.eot");
+  src: url("font/TSTAR-LightItalicWeb.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-RegularWeb.eot");
+  src: url("font/TSTAR-RegularWeb.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-RegularItalicWeb.eot");
+  src: url("font/TSTAR-RegularItalicWeb.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-MediumWeb.eot");
+  src: url("font/TSTAR-MediumWeb.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-MediumItalicWeb.eot");
+  src: url("font/TSTAR-MediumItalicWeb.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-BoldWeb.eot");
+  src: url("font/TSTAR-BoldWeb.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-BoldItalicWeb.eot");
+  src: url("font/TSTAR-BoldItalicWeb.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TSTAR;
+  src: url("font/TSTAR-HeavyWeb.eot");
+  src: url("font/TSTAR-HeavyWeb.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* line 9, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+body {
+  background: white;
+  overflow-x: hidden;
+}
+
+/* line 15, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+.eventInfo .headerImage {
+  background-image: url(../img/headerImage.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+/* line 23, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+.eventInfo .event h1 {
+  font-family: "TSTAR", serif;
+}
+
+/* line 51, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+.videoContainer .row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 66, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+.formRSVP {
+  background-color: #353535;
+  padding: 2vw;
+}
+
+/* line 69, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+.formRSVP .row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 74, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+.formRSVP .interested h2 {
+  color: white;
+}
+
+/* line 79, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+.formRSVP .form label {
+  color: white;
+}
+
+/* line 95, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/_partials/main.scss */
+.formRSVP .form .submitForm {
+  color: white;
+}
+
+/*# sourceMappingURL=../../_partials/main.map */

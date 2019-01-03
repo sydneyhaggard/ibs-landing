@@ -1,0 +1,48 @@
+/* line 7, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/main.scss */
+body {
+  background: white;
+  overflow-x: hidden;
+}
+
+/* line 13, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/main.scss */
+.eventInfo .headerImage {
+  background-image: url(../img/headerImage.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+/* line 49, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/main.scss */
+.videoContainer .row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 64, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/main.scss */
+.formRSVP {
+  background-color: #353535;
+  padding: 2vw;
+}
+
+/* line 67, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/main.scss */
+.formRSVP .row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 72, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/main.scss */
+.formRSVP .interested h2 {
+  color: white;
+}
+
+/* line 77, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/main.scss */
+.formRSVP .form label {
+  color: white;
+}
+
+/* line 93, /Users/sydneyhaggard/Documents/YandL/IBS-LandingPage/CSS/scss/main.scss */
+.formRSVP .form .submitForm {
+  color: white;
+}
+
+/*# sourceMappingURL=../main.map */
