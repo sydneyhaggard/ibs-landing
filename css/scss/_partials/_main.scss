@@ -11,8 +11,13 @@ body{
     background: white;
     overflow-x: hidden;
 
-    h1, h2{
+    h1, h2, h3{
         font-family: $playfair;
+    }
+
+    h3{
+        font-size: 25px;
+        text-align: center;
     }
 
     p{
@@ -27,11 +32,17 @@ body{
         background-size: cover;
         background-position: left;
         background-repeat: no-repeat;
+
+        a {
+            position: absolute;
+            width: auto;
+            height: auto;
+        }
     }
 
     svg.header-logo {
         height: 40px;
-        margin: 40px 50px;
+        // margin: 40px 50px;
     }
 
     .event{
@@ -41,8 +52,8 @@ body{
         align-items: center;
         background: $lightGrey;
 
-        h1{
-            margin-bottom: 60px;
+        h3{
+            margin-bottom: 50px;
         }
     
         p{
@@ -51,8 +62,16 @@ body{
         }
     
         .dateAndTime{
-            margin-top: 30px;
-            margin-bottom: 50px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            strong{
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+        }
+
+        .where, .why{
+            margin-bottom: 10px;
             strong{
                 text-transform: uppercase;
                 letter-spacing: 1px;
@@ -65,7 +84,6 @@ body{
             border: 1px solid $yellow;
             overflow: hidden;
             display: block;
-            // max-width: 140px;
             position: relative;
             padding: 13px 1px 13px 13px;
             text-decoration: none;
@@ -74,6 +92,7 @@ body{
             transition: 0.1s ease;
             font-weight: 600;
             letter-spacing: 1.3px;
+            margin-top: 35px;
 
             span{
                 position: relative;
@@ -162,13 +181,13 @@ body{
 
 .formRSVP{
     background-color: $darkGrey;
-    padding: 120px 0 100px 0px;
     margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    .row{
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+
     .interested{
         display: flex;
         flex-direction: column;
@@ -191,6 +210,9 @@ body{
 
     }
     .form{
+        input{
+            padding: 7px;
+        }
         label{
             color: white;
             display: block;
@@ -279,6 +301,9 @@ body{
         height: 900px;
         .headerImage{
             min-height: 900px;
+            a{
+                margin: 40px 50px;
+            }
         }
         .event{
             height: 900px;
@@ -291,42 +316,52 @@ body{
             }
         }
     }
-    .form{
-        
-        span.firstName {
-            display: inline-block;
-            width: 50%;
 
-            input{
-                width: 90%;
-            }
-        }
-        
-        span.lastName {
-            display: inline-block;
-            width: 48%;
 
-            input{
-                width: 90%;
+    .formRSVP{
+        height: 90vh;
+
+        .row {
+            width: 80%;
+        }
+
+        .form{
+            
+            span.firstName {
+                display: inline-block;
+                width: 50%;
+
+                input{
+                    width: 90%;
+                }
             }
-        }
-        
-        span.email {
-            margin-top: 15px;
-            display: block;
-        }
-        
-        span.email input {
-            width: 70%;
-        }
-        
-        span.guestNum {
-            margin-top: 15px;
-            display: block;
-        }
-        
-        a.submitForm {
-            margin-top: 30px;
+            
+            span.lastName {
+                display: inline-block;
+                width: 48%;
+
+                input{
+                    width: 90%;
+                }
+            }
+            
+            span.email {
+                margin-top: 15px;
+                display: block;
+            }
+            
+            span.email input {
+                width: 70%;
+            }
+            
+            span.guestNum {
+                margin-top: 15px;
+                display: block;
+            }
+            
+            a.submitForm {
+                margin-top: 30px;
+            }
         }
     }
 }
@@ -337,6 +372,9 @@ body{
         min-height: 700px;
         .headerImage{
             min-height: 700px;
+            a{
+                margin: 40px 50px;
+            }
         }
         .event{
             height: 700px;
@@ -376,7 +414,12 @@ body{
 
     .formRSVP{
         margin-top: -100px  !important;
-
+        height: 90vh;
+        
+            .row{
+                width: 80%;
+            }
+        
     .form{
         span.firstName {
             display: inline-block;
@@ -421,6 +464,13 @@ body{
     .eventInfo{
         .headerImage{
             height: 400px;
+            text-align: center;
+            a{
+                position: relative !important;
+                .logo{
+                    margin-top: 25px !important;
+                }
+            }
             div#hLogo {
                 margin: 0 auto;
                 text-align: center;
@@ -461,6 +511,8 @@ body{
     }
 
     .formRSVP{
+        height: 900px;
+
         .interested {
             margin-bottom: 40px;
         }
